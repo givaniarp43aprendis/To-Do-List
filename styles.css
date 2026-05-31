@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-weight: 600;
+  font-family: "Sevillana", cursive;
+  
+outline: none;
+
+}
+body{
+    background-image:url("./img/background.png") ;
+   background-position: top center;
+}
+.conteiner{
+  background-color: darkgrey; 
+  width: 500px; 
+  border-radius: 10px;
+  padding: 25px;
+  
+  margin: 100px auto 0;
+}
+.input-text{
+   border: none; 
+   border-radius: 8px;
+   width: 300px;
+   height: 40px;
+   padding-left: 10px;
+ 
+}
+.button-text{
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+   
+    background-color: #003329;
+    color: #fff;
+    float: right;/*joga pra direita*/
+    cursor: pointer;
+    font-weight: 700;
+}
+.button-text:hover{
+    opacity: 0.8;
+}
+.button-text:active{
+    opacity: 0.6;
+}
+.lista-Tarefas{
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+
+   
+
+}
+.tarefas{
+ background-color: #f2f2f2; 
+ box-shadow: 1px 4px 10px rgba(0, 0, 0,0.2 );
+   
+ display: flex; 
+align-items: center;
+ height: 60px; 
+ justify-content: space-between;
+ padding: 0 15px;
+border-radius: 8px;
+margin-bottom: 20px;
+cursor: pointer;
+
+}
+img{
+    height: 20px;
+     opacity: 0;
+     transition: opacity 0.5s ease-in-out;
+}
+.tarefas:hover img{
+    opacity: 1;
+}
+.done{
+   background-color: #086452; 
+   text-decoration: line-through;
+}
