@@ -15,7 +15,7 @@ body{
 }
 .conteiner{
   background-color: darkgrey; 
-  width: 500px; 
+  max-width: 500px; 
   border-radius: 10px;
   padding: 25px;
   
@@ -24,7 +24,8 @@ body{
 .input-text{
    border: none; 
    border-radius: 8px;
-   width: 300px;
+ 
+  flex: 1;
    height: 40px;
    padding-left: 10px;
  
@@ -39,6 +40,7 @@ body{
     float: right;/*joga pra direita*/
     cursor: pointer;
     font-weight: 700;
+    white-space: nowrap; /*impede quebra de linha*/
 }
 .button-text:hover{
     opacity: 0.8;
