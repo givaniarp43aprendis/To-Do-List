@@ -12,6 +12,7 @@ outline: none;
 body{
     background-image:url("./img/background.png") ;
    background-position: top center;
+   font-size: 20px;
 }
 .conteiner{
   background-color: darkgrey; 
