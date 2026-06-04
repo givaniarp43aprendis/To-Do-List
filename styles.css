@@ -41,6 +41,7 @@ body{
     cursor: pointer;
     font-weight: 700;
     white-space: nowrap; /*impede quebra de linha*/
+    
 }
 .button-text:hover{
     opacity: 0.8;
